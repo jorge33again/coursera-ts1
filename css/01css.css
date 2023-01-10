@@ -148,11 +148,7 @@
 	.bg-light {
 	    width: 100%;
 	    color: #fff;
-	}
-	.mansalogo {
-		content: url("img/fsf.jpg");
-	}
-	
+	}	
 }
 /********** S9+ devices **********/
 @media (max-width: 767px) {
@@ -207,7 +203,7 @@
 		padding-left: 0px;
 	}
 	.mansalogo {
-		content: url("img/fsf.jpg");
+		content: url("../img/logoW.svg");
 	}
 	.colizq-info {
 		max-width: 300px;
