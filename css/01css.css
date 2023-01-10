@@ -1,6 +1,12 @@
 /*STAR NAVBAR*/
+a:hover {
+	color: unset;
+}
+.shopB {
+	text-decoration: none;
+	color: #000;
+}
 .nav01 {	
-	font-size:30px;
 	cursor:pointer;	
 }
 .overlay {
@@ -133,6 +139,9 @@
 
 /********** Devices **********/
 @media (min-width:768px) and (max-width: 991px){
+	.shopB {
+		color: #fff;
+	}
 	.p-info {
 		margin-top: 0px;
 	}
@@ -152,6 +161,9 @@
 }
 /********** S9+ devices **********/
 @media (max-width: 767px) {
+	.shopB {
+		color: #fff;
+	}
 	.bg-light {
 	    width: 100%;
 	    color: #fff;
