@@ -112,6 +112,7 @@
 	margin-top: 50px;
 	margin-bottom: 50px;
 	background-color: #fff;
+	overflow: hidden;
 }
 .colof3 .col:nth-child(2){
 	padding-left: 30px;
