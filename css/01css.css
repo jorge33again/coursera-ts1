@@ -2,7 +2,7 @@
 .p-info, .p2i, .overlay {
 	font-family: 'Comfortaa', cursive;
 }
-.display-2, .p1i{
+.display-2, .p1i, .overlay-content, .display-5{
 	font-family: 'Tenor Sans', sans-serif;
 }
 a:hover {
@@ -12,8 +12,17 @@ a:hover {
 	text-decoration: none;
 	color: #000;
 }
+.iconsOver {
+	display: inline !important;
+}
 .nav01 {	
 	cursor:pointer;	
+}
+.overOrange{
+	color: #b37835;
+}
+.overWhite{
+	color: #fff;
 }
 .overlay {
 	height: 0%;
@@ -31,7 +40,14 @@ a:hover {
 	position: relative;
 	top: 25%;
 	width: 100%;
-	text-align: left;
+	text-align: right;
+	margin-top: 30px;
+}
+.overlay-content2 {
+	position: relative;
+	top: 25%;
+	width: 100%;
+	text-align: center;
 	margin-top: 30px;
 }
 .overlay a {
@@ -145,6 +161,9 @@ a:hover {
 
 /********** Devices **********/
 @media (min-width:768px) and (max-width: 991px){
+	.display-2{
+		max-width: 50%;
+	}
 	.shopB {
 		color: #fff;
 	}
@@ -156,8 +175,6 @@ a:hover {
 	}
 	.colizq-info {
 		padding-left: 0%;
-	}
-	.colizq-info {
 		margin-top: 20px;
 	}
 	.bg-light {
@@ -183,7 +200,6 @@ a:hover {
 	}
 	.colizq-info {
 		padding-top: 6%;
-		max-width: 300px;
 	}
 	.p-info {
 		margin-top: 20px;
@@ -192,7 +208,7 @@ a:hover {
 		height: 25vh;
 		width: 100%;
 	}
-	.flex-column {
+	.myflex1 {
 	    flex-direction: column-reverse !important;
 	}
 	.col {
